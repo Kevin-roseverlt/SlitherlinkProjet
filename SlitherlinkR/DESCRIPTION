@@ -1,13 +1,17 @@
 Package: SlitherlinkR
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Jeu Interactif Slitherlink en Shiny
+Version: 0.1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Kevin-Roseverlt", "YONKEU WAYA",
+           email = "kevin-roseverlt.yonkeu-waya@etu.umontpellier.fr",
+           role = c("aut", "cre"))
+Description: Ce package propose une bibliothèque complète pour jouer au 
+    Slitherlink. Il inclut une application Shiny interactive permettant 
+    de résoudre plusieurs niveaux de difficulté avec un système d'aide 
+    dynamique, un chronomètre et des effets sonores et visuels.
+License: MIT
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
+LazyData: true
 RoxygenNote: 7.3.3
 Imports: 
     ggplot2,
