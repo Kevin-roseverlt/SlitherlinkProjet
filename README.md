@@ -48,10 +48,11 @@ Le jeu repose sur une grille de points où l'objectif est de tracer une boucle u
 5.  **Gamification & UX** : Ajout du mode aide, du chronomètre, des alertes sonores et visuelles.
 6.  **Documentation** : Génération de la documentation technique via Roxygen2.
 
+
 ## ⏱️ Diagramme de Gantt (Planification)
 
- '''mermaid
- gantt
+```mermaid
+gantt
     title Planification du projet SlitherlinkR
     dateFormat  YYYY-MM-DD
     section Développement
@@ -63,6 +64,8 @@ Le jeu repose sur une grille de points où l'objectif est de tracer une boucle u
     section Finalisation
     Finalisation & Documentation  :active,  des6, 2026-04-14, 3d
     Remise du projet (17 Avril)   :milestone, m1, 2026-04-17, 0d
+
+```  
 
 ## 📸 Aperçu de l'application
 ![Capture du jeu](capture_jeu.png)
