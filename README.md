@@ -50,14 +50,18 @@ Le jeu repose sur une grille de points où l'objectif est de tracer une boucle u
 
 ## ⏱️ Diagramme de Gantt (Planification)
 
-| Tâche | Période | Statut |
-| :--- | :--- | :---: |
-| Initialisation & GitHub |  Mars | Done |
-| Logique & Vérifications | Avril | Done |
-| Interface Shiny & Clics | Avril | Done |
-| Gamification & Audio |  Avril | Done |
-| Multi-niveaux & BFS |  Avril | Done |
-| Finalisation & Documentation | 14 Avril | Done |
+ gantt
+    title Planification du projet SlitherlinkR
+    dateFormat  YYYY-MM-DD
+    section Développement
+    Initialisation & GitHub       :done,    des1, 2026-03-20, 1d
+    Logique & Vérifications       :done,    des2, 2026-04-04, 1d
+    Interface Shiny & Clics       :done,    des3, 2026-04-12, 1d
+    Gamification & Audio          :done,    des4, 2026-04-13, 1d
+    Multi-niveaux & BFS           :done,    des5, 2026-04-14, 1d
+    section Finalisation
+    Finalisation & Documentation  :active,  des6, 2026-04-14, 3d
+    Remise du projet (17 Avril)   :milestone, m1, 2026-04-17, 0d
 
 ## 📸 Aperçu de l'application
 ![Capture du jeu](capture_jeu.png)
