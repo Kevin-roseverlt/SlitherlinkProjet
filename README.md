@@ -6,7 +6,7 @@ Exploration de la logique combinatoire à travers le développement d'un moteur 
 
 Ce projet s'inscrit dans le cadre du Master 1 SSD (2025-2026) à l'Université de Montpellier. Il consiste en la création d'une bibliothèque en langage R servant de fondation à une application **Shiny** dédiée au jeu de puzzle logique **Slitherlink**.
 
-L'objectif est de traduire des contraintes de voisinage et des règles topologiques (théorie des graphes) en algorithmes de vérification robustes, tout en offrant une expérience utilisateur fluide et ludique.
+L'objectif est de traduire des contraintes de voisinage et des règles topologiques (théorie des graphes) en algorithmes de vérification, tout en offrant une expérience utilisateur fluide et ludique.
 
 Les trois objectifs principaux sont :
 *   **Développement d'une Bibliothèque R** : Création de fonctions modulaires pour la génération de grilles et la vérification des règles.
