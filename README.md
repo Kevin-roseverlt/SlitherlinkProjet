@@ -50,6 +50,7 @@ Le jeu repose sur une grille de points où l'objectif est de tracer une boucle u
 
 ## ⏱️ Diagramme de Gantt (Planification)
 
+ '''mermaid
  gantt
     title Planification du projet SlitherlinkR
     dateFormat  YYYY-MM-DD
